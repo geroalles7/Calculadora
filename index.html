@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./index.js" ></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9dfd63da9e.js" crossorigin="anonymous"></script>
+    <title>Calculadora de Gero</title>
+   
+</head>
+<nav class="nav">
+    <ul class="lista-nav">
+        <i class="fa-solid fa-house"></i><a href="" class="Inicio">Inicio</a>
+        <i class="fa-solid fa-money-bill"></i><a href="" class="Compras">Compras</a>
+        <i class="fa-solid fa-cart-flatbed"></i><a href="" class="Carrito">Carrito</a>
+        <i class="fa-solid fa-address-card"></i><a href="" class="About-us">Sobre Nosotros</a>
+
+    </ul>
+</nav>
+<body>
+    <h1>CALCULADORA HTML Y JS</h1>
+    <input type="number" id="num1" placeholder="Número 1">
+  <br>
+  <input type="number" id="num2" placeholder="Número 2">
+  <br>
+  <div class="operaciones">
+    <input type="radio" name="operacion" value="suma" checked> Sumar
+    <input type="radio" name="operacion" value="resta"> Restar
+    <input type="radio" name="operacion" value="multiplicacion"> Multiplicar
+    <input type="radio" name="operacion" value="division"> Dividir
+  
+  </div>
+  
+  <button onclick="calcular()">Calcular</button>
+  <br>
+  <p class="resul">Resultado: <span id="resultado"></span></p>
+  <p class="lorem"> 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ullam repellat exercitationem, incidunt voluptatibus hic esse ex eaque atque assumenda ratione! Fuga aliquam inventore quas asperiores accusantium dolorum placeat exercitationem.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In minus provident sed excepturi, nam, laudantium fuga asperiores accusantium officia labore repellendus praesentium tempora! Quis consequatur sint adipisci iste architecto fugit.
+  </p>
+
+   
+</body>
+<footer>Copyright 2023 - Todos los derechos reservados</footer>
+</html>
