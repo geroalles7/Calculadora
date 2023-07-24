@@ -1,0 +1,98 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+   
+}
+h1{
+    font-size: 50px;
+    text-shadow: 25px ;
+   
+}
+a{
+    font-size: 30px;
+    text-decoration-line: none;
+   
+}
+nav{
+    background-color: lightcoral;
+    
+    display:block;
+    
+    
+}
+.lista-nav{
+
+    margin:30px;
+    padding:30px;
+    transition-property: background;
+    transition-duration: 8s;
+}
+.lista-nav a:hover{
+    font-size:60px
+}
+
+body{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/blue-sky-half-moon-crescent-moon-clouds-star-trails-5k-3840x2160-8404.png");
+    background-position: center;
+   
+}
+
+#resul{
+    font-size:50px
+}
+#num1 {
+    box-shadow: 10px 5px 3px 4px;
+    margin-top:10px
+    
+}
+#num2 {
+    box-shadow: 10px 5px 3px 4px;
+    margin-top:10px
+
+}
+button{
+    box-shadow: 10px 5px 3px 4px;
+}
+button:hover{ 
+    background-color: green
+
+}
+#ope{
+   margin:auto;
+}
+#parrafo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contenedor{
+    display: inline;
+    transition-property: background;
+    transition-duration: 2s;
+}
+
+.forma{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.forma2{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    display: inline-block;
+}
+.operaciones{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and(max-width:500px){
+    nav{
+        display:none
+    }
+}
+
+
+
